@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="change()"; background-color: silver;color: #00FF00;border-radius: 5px;>click me</button>
+
+<p id="test">Normal</p>
+
+<script>
+    function change(){
+        document.getElementById("test").innerHTML = "crazy";
+    }
+</script>
+
+<form action="action_page.php" method="POST">
+
+    <div>
+<label for="fname">Identification:</label>
+<input type="text" id="fname" name="fname" placeholder="crazy loading" required>
+</div>
+
+<br>
+
+<div>
+
+<label for="lname">Identification name:</label>
+<input type="checkbox" id="lname" name="lname" placeholder="crazy while loading" maxlength="7" required>
+</div>
+
+<br>
+
+<div>
+    <input type="reset">
+</div>
+<br>
+<div>
+    <input type="submit">
+</div>
+</form>
+
+<a href="page7.html">
+    next page
+</a>
+
+</body>
+</html>
